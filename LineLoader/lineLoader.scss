@@ -1,0 +1,19 @@
+.line-progress {
+    width: 100%;
+    background: linear-gradient(90deg, #FF004E 0%, #FF0080 100%);
+    animation-name: progressBar;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    height: 3px;
+    position: fixed;
+    z-index: 999;
+    @keyframes progressBar {
+        0% {
+          width: 10%;
+        }
+        
+        100% {
+          width: 100%;
+        }
+    }
+}
